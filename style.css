@@ -1,0 +1,118 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f6f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #6b4f4f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #a47551;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 5px 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #6b4f4f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Homepage Content */
+.homepage-content {
+  padding: 20px 40px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Gallery Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #a47551;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #8a5c3e;
+}
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .homepage-content {
+    padding: 10px 20px;
+  }
+}
+

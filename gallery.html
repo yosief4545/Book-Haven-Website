@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Haven - Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Book Haven Gallery</h1>
+    <nav>
+      <a href="homepage.html">Home</a> |
+      <a href="gallery.html">Gallery</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="bookclub.html">Book Club</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Featured Books</h2>
+    <table>
+      <tr>
+        <td>
+          <img src="book1.jpg" alt="Book 1" /><br />
+          <p>The Great Adventure</p>
+          <button onclick="addToCart('The Great Adventure')">Add to Cart</button>
+        </td>
+        <td>
+          <img src="book2.jpg" alt="Book 2" /><br />
+          <p>Mystery of the Night</p>
+          <button onclick="addToCart('Mystery of the Night')">Add to Cart</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="book3.jpg" alt="Book 3" /><br />
+          <p>Children of Wonder</p>
+          <button onclick="addToCart('Children of Wonder')">Add to Cart</button>
+        </td>
+        <td>
+          <img src="book4.jpg" alt="Book 4" /><br />
+          <p>History Rewritten</p>
+          <button onclick="addToCart('History Rewritten')">Add to Cart</button>
+        </td>
+      </tr>
+    </table>
+
+    <button onclick="viewCart()">View Cart</button>
+    <button onclick="clearCart()">Clear Cart</button>
+    <button onclick="processOrder()">Process Order</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Haven Bookstore</p>
+    <button class="subscribe-button">Subscribe</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
